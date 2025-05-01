@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Used Cars - Auto Trust</title>
+    <link href="https://fonts.googleapis.com/css2?family=Arial:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="used_cars.css">
+</head>
+<body>
+    <header>
+        <div class="header-top">
+            <div class="logo">
+                <a href="interface.html">Auto Trust</a>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="../interface/interface.html">Home</a></li>
+                    <li><a href="../Used Cars/used_cars.html" class="active">Used Cars</a></li>
+                    <li><a href="../New Cars/new_cars.html">New Cars</a></li>
+                    <li><a href="../Sell/sell_your_car.html">Sell Your Car</a></li>
+                    <li><a href="../About/About.html">About</a></li>
+                    <li><a href="../login/login.html" class="login-button">Login</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="header-bottom">
+            <h1>Find Your Dream Car</h1>
+            <p>The best place to find your next car.</p>
+            <button>Search Cars</button>
+        </div>
+    </header>
+
+    <main>
+        <section class="used-cars-section">
+            <div class="container">
+                <h1>Used Cars For Sale in Egypt</h1>
+                <p>Find great deals on quality used cars.  Explore our listings to find the perfect vehicle for your needs and budget.</p>
+
+                <div class="filter-options">
+                    <select id="make-filter">
+                        <option value="">All Makes</option>
+                        <option value="Hyundai">Hyundai</option>
+                        <option value="Toyota">Toyota</option>
+                        <option value="Kia">Kia</option>
+                        <option value="MG">MG</option>
+                        <option value="Chevrolet">Chevrolet</option>
+                    </select>
+                    <select id="model-filter">
+                        <option value="">All Models</option>
+                    </select>
+                     <select id="year-filter">
+                        <option value="">All Years</option>
+                    </select>
+                    <select id="price-filter">
+                        <option value="">Price</option>
+                        <option value="0-200000">Under 200,000 EGP</option>
+                        <option value="200001-400000">200,000 - 400,000 EGP</option>
+                        <option value="400001-600000">400,000 - 600,000 EGP</option>
+                        <option value="600001-1000000">600,000 - 1,000,000 EGP</option>
+                        <option value="1000001-above">Above 1,000,000 EGP</option>
+                    </select>
+                </div>
+
+                <div id="used-cars-grid" class="used-cars-grid">
+                    </div>
+                <div id="no-cars-message" class="no-cars-message" style="display:none;">No cars found matching your criteria. Please try again.</div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer_container">
+            <p>&copy; 2025 Auto Trust. All rights reserved.</p>
+        </div>
+    </footer>
+
+</body>
+</html>

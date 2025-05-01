@@ -1,0 +1,101 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    height: 100%;
+  }
+  .animated-background {
+    position: relative;
+    width: 100%;
+    height: 300px;
+    background-image: url('https://www.gifcen.com/wp-content/uploads/2021/05/car-gif-7.gif'); /* Replace with your car image URL */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    animation: moveBackground 10s ease infinite;
+  }
+
+  @keyframes moveBackground {
+    0% {
+      background-position: center;
+    }
+    50% {
+      background-position: left center;
+    }
+    100% {
+      background-position: center;
+    }
+  }
+
+  /* Content styling */
+  .content {
+    padding: 30px;
+    text-align: center;
+    background-color: #fff;
+    color: #333;
+    font-size: 1.2em;
+  }
+
+  .content h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+  }
+
+  .content p {
+    line-height: 1.6;
+    font-size: 1.2em;
+  }
+
+  /* Optional styles for section content */
+  .about-section {
+    padding: 40px;
+  }
+
+.team-section {
+    margin-top: 80px;
+    text-align: center;
+}
+.team-section h2 {
+  font-size: 36px;
+  margin-bottom: 40px;
+  color: #222;
+}
+  table {
+width: 80%;
+margin: 20px auto;
+border-collapse: collapse;
+border-radius: 10px;
+overflow: hidden;
+box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+th, td {
+padding: 15px;
+border: 1px solid #efe8e8;
+text-align: left;
+}
+
+th {
+background-color: #111111;
+color: white;
+font-weight: bold;
+}
+
+tr:hover {
+background-color: #4ab5eb;
+}
+
+/*Footer*/
+footer {
+  background-color: black;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.footer_container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
