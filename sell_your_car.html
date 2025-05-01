@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sell Your Car - Auto Trust</title>
+    <link href="https://fonts.googleapis.com/css2?family=Arial:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="sell_your_car.css">
+</head>
+<body>
+    <header>
+        <div class="header-top">
+            <div class="logo">
+                <a href="interface.html">Auto Trust</a>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="interface.html">Home</a></li>
+                    <li><a href="used_cars.html">Used Cars</a></li>
+                    <li><a href="new_cars.html">New Cars</a></li>
+                    <li><a href="sell_your_car.html" class="active">Sell Your Car</a></li>
+                    <li><a href="About.html">About</a></li>
+                    <li><a href="login.html" class="login-button">Login</a></li>
+                </ul>
+            </nav>
+        </div>
+
+    </header>
+
+    <main>
+        <section class="sell-car-section">
+            <div class="container">
+                <h1>Sell Your Car in Egypt</h1>
+                <p>Reach thousands of potential buyers and get the best price for your car.</p>
+
+                <div class="selling-points">
+                    <div class="point">
+                        <h3>Wide Reach</h3>
+                        <p>Connect with a large audience of car buyers in Egypt.</p>
+                    </div>
+                    <div class="point">
+                        <h3>Fast Sales</h3>
+                        <p>Sell your car quickly with our efficient platform.</p>
+                    </div>
+                    <div class="point">
+                        <h3>Best Price</h3>
+                        <p>Get the best possible price for your vehicle.</p>
+                    </div>
+                    <div class="point">
+                        <h3>Easy Process</h3>
+                        <p>Simple and straightforward selling process.</p>
+                    </div>
+                </div>
+
+                <div class="form-container">
+                    <h2>Sell Your Car Now</h2>
+                    <form id="sell-car-form">
+                        <label for="name">Your Name:</label>
+                        <input type="text" id="name" name="name" placeholder="Enter your name">
+
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" placeholder="Enter your email">
+
+                        <label for="phone">Phone Number:</label>
+                        <input type="tel" id="phone" name="phone" placeholder="Enter your phone number">
+
+                        <label for="make">Car Make:</label>
+                        <input type="text" id="make" name="make" placeholder="Enter car make (e.g., Toyota)">
+
+                        <label for="model">Car Model:</label>
+                        <input type="text" id="model" name="model" placeholder="Enter car model (e.g., Corolla)">
+
+                        <label for="year">Year:</label>
+                        <input type="number" id="year" name="year" placeholder="Enter year of manufacture">
+
+                        <label for="price">Price (EGP):</label>
+                        <input type="number" id="price" name="price" placeholder="Enter your asking price">
+
+                        <label for="description">Car Description:</label>
+                        <textarea id="description" name="description" placeholder="Describe your car's condition and features"></textarea>
+
+                        <button type="submit">Submit</button>
+                    </form>
+                    <div id="form-error-message" class="error-message" style="display:none;"></div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Auto Trust. All rights reserved.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
