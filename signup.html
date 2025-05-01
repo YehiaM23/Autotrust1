@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Sign Up Page</title>
+  <link rel="stylesheet" href="login.css" />
+</head>
+<body>
+  <div class="background"></div>
+  <div class="login-container">
+    <h2>Sign Up</h2>
+    <form action="your-signup-handler.php" method="POST">
+      <input type="text" name="first_name" placeholder="First Name" required />
+      <input type="text" name="last_name" placeholder="Last Name" required />
+      <input type="email" name="email" placeholder="Email" required />
+      <input type="tel" name="mobile" placeholder="Mobile Phone" required />
+      
+      <div style="display: flex; gap: 5px;">
+        <input type="number" name="birth_day" placeholder="Day" min="1" max="31" required style="width: 30%;" />
+        <input type="number" name="birth_month" placeholder="Month" min="1" max="12" required style="width: 30%;" />
+        <input type="number" name="birth_year" placeholder="Year" min="1900" max="2025" required style="width: 40%;" />
+      </div>
+
+      <input type="password" name="password" placeholder="Password" required />
+      <input type="password" name="confirm_password" placeholder="Confirm Password" required />
+      <button type="submit">Sign Up</button>
+    </form>
+    <p>Already have an account? <a href="login.html">Login</a></p>
+  </div>
+</body>
+</html>
